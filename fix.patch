@@ -1,0 +1,60 @@
+From fdc860c3642ac4c41a189e1f013976e8a86b0578 Mon Sep 17 00:00:00 2001
+From: quannm19 <quannm19@fsoft.com.vn>
+Date: Thu, 11 May 2017 14:55:25 +0700
+Subject: [PATCH 1/2] x
+
+---
+ a.c | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+ create mode 100644 a.c
+
+diff --git a/a.c b/a.c
+new file mode 100644
+index 0000000..001387f
+--- /dev/null
++++ b/a.c
+@@ -0,0 +1,12 @@
++#include<stdio.h>
++int main()
++{
++int a,b;
++printf("nhap vao 1 so a: ");
++scanf("%d",&a)
++printf("nhap vao 1 so b: ");
++scanf("%d",&b)
++printf("ban da nhap vao %d %d\n",a,b);
++return 0;
++}
++
+-- 
+1.9.1
+
+
+From 0a52e035470f8a538a328b246c8038c38efd44b7 Mon Sep 17 00:00:00 2001
+From: quannm19 <quannm19@fsoft.com.vn>
+Date: Thu, 11 May 2017 15:04:13 +0700
+Subject: [PATCH 2/2] x
+
+---
+ a.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/a.c b/a.c
+index 001387f..71b4ff8 100644
+--- a/a.c
++++ b/a.c
+@@ -3,9 +3,9 @@ int main()
+ {
+ int a,b;
+ printf("nhap vao 1 so a: ");
+-scanf("%d",&a)
++scanf("%d",&a);
+ printf("nhap vao 1 so b: ");
+-scanf("%d",&b)
++scanf("%d",&b);
+ printf("ban da nhap vao %d %d\n",a,b);
+ return 0;
+ }
+-- 
+1.9.1
+
